@@ -1,0 +1,114 @@
+/*CONTAINER*/
+.container {
+	width: 100%;
+	float: left;
+	padding: 3%;
+}
+
+#informacoes {
+	background-color: #282828;
+}
+
+#informacoes h3 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2em;
+	padding: 10px;
+}
+
+#informacoes h5 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.6em;
+	padding-bottom:18px;
+}
+
+#txtEmail {
+	width: 630px;
+	float: center;
+	margin-left: 13.2%;
+	padding: 15px;
+	font-size: 1.0em;
+	color: #FFFFFF;
+	background: #272727;
+	border: 0.5%;
+	border-radius: 5px;
+}
+
+#btnCadastrar {
+	width: center;
+	width: 300px;
+	float: right;
+	margin-right: 12.5%;
+	padding: 15px;
+	font-size: 1.0em;
+	border-radius: 5px;
+}
+
+/* FILMES */
+#filmes {
+	background-color: #c3c3c3;
+}
+
+#filmes article {
+	width: 23.5%;
+	float: right;
+	margin-right: 0%;
+	margin-left: 2%;
+	background-color: #FFFFFF;
+	margin-bottom: 2%;
+	padding: 2%;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 380px;
+	line-height: 1.6em;
+}
+#filmes article:nth-child(3n + 1) {
+	margin-right: 12.3%;
+}
+
+#filmes article p {
+	font-size: 0.9em;
+	text-align: justify;
+	color: #000000
+}
+#filmes h4 {
+	font-size: 1.5em;
+	margin-bottom: 6%;
+}
+
+#filmes img{
+	height: 67.4%;
+	float: left;
+ 	margin-left: 2%;
+ 	margin-right: 0%;
+ 	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+#filmes img:nth-child(1) {
+	margin-left: 13.2%;
+}
+
+#filmes img:nth-child(7) {
+	margin-left: 13.2%;
+}
+
+/*VOLTAR TOPO*/
+#voltar-topo {
+	font-size: 3em;
+	color: #282828;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	padding: 5px;
+	border-radius: 30px;
+}
+
+#voltar-topo:hover {
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #282828;
+	transition: all 0.5s linear;
+}
